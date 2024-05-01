@@ -4,7 +4,7 @@
 
 A* Algorithm is an informed search algorithm that finds the shortest path in terms of total cost, which is the sum of the actual cost from the start node to the current node and a heuristic estimate of the cost from the current node to the goal. It uses a priority queue (min-heap) to prioritize nodes with the smallest estimated total cost.
 
-![A* Algorithm](images/Astar.png)
+![A* Algorithm](images/Astar1.png)
 
 ## Define the Problem of Romania Roadmap
 
@@ -49,12 +49,14 @@ The roadmap (graph) is represented as a dictionary (`graph`) where keys are citi
   - `heuristic`: A function that estimates the cost from a node to the goal.
 - **Output:**
   - Returns the shortest path (list of cities) from `start` to `goal` if one exists, otherwise returns `None`.
-
+## Example of A*
+![A* Example](images/Astar.png)
 ## How to Run the Code
 
 ### Prerequisites
 
 - Ensure you have Python installed on your computer. If not, download and install Python from the [official website](https://www.python.org/).
+
 
 ### Steps to Run the Code
 
